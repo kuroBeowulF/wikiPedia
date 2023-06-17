@@ -5,7 +5,7 @@ import ResultItem from "../components/ResultItem";
 
 const className = {
   main: cntl`max-w-xl mx-auto p-2 mt-2 bg-slate-200 min-h-screen`,
-  notFound: cntl``,
+  notFound: cntl`text-xl text-orange-500 font-bold mt-2 text-center`,
 };
 type Props = {
   params: {

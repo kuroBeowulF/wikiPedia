@@ -16,5 +16,6 @@ export default async function getWikiResults(searchResult: string) {
   const result = await fetch(
     `https://en.wikipedia.org/w/api.php?${searchParams}`
   );
+
   return result.json();
 }
